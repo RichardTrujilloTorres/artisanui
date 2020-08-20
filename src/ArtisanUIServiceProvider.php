@@ -4,6 +4,7 @@ namespace Desemax\ArtisanUI;
 
 use Illuminate\Support\ServiceProvider;
 
+// @codeCoverageIgnoreStart
 class ArtisanUIServiceProvider extends ServiceProvider
 {
     /**
@@ -80,3 +81,4 @@ class ArtisanUIServiceProvider extends ServiceProvider
         // $this->commands([]);
     }
 }
+// @codeCoverageIgnoreEnd
