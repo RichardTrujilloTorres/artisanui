@@ -2,8 +2,8 @@
 
 namespace Desemax\ArtisanUI\Http\Controllers\API;
 
-use App\Http\Controllers\Controller;
 use Desemax\ArtisanUI\ArtisanUI;
+use Desemax\ArtisanUI\Http\Controllers\Controller;
 use Desemax\ArtisanUI\Http\Requests\RunCommandRequest;
 use Desemax\ArtisanUI\Http\Resources\Command;
 use Illuminate\Http\Request;
