@@ -1,6 +1,6 @@
 language: php
 
-php: 7.1
+php: 7.4
 
 before_script:
   - cp phpunit.travis.xml phpunit.xml
