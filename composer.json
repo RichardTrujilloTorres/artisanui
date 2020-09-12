@@ -39,5 +39,10 @@
                 "ArtisanUI": "Desemax\\ArtisanUI\\Facades\\ArtisanUI"
             }
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "phpcbf": "phpcbf --standard=PSR2 src/*.php tests/*.php",
+        "phpcs": "phpcs --standard=PSR2 src/*.php tests/*.php"
     }
 }
