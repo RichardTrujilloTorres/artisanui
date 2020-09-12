@@ -58,6 +58,5 @@ license. Please see the [license file](license.md) for more information.
 [link-packagist]: https://packagist.org/packages/desemax/artisanui
 [link-downloads]: https://packagist.org/packages/desemax/artisanui
 [link-travis]: https://travis-ci.org/desemax/artisanui
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: mailto:richard@desemax.com
 [link-styleci]: https://github.styleci.io/repos/288589018?branch=master
+[link-author]: mailto:richard@desemax.com
