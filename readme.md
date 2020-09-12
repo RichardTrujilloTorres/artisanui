@@ -60,3 +60,4 @@ license. Please see the [license file](license.md) for more information.
 [link-travis]: https://travis-ci.org/desemax/artisanui
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: mailto:richard@desemax.com
+[link-styleci]: https://github.styleci.io/repos/288589018/shield?branch=master
