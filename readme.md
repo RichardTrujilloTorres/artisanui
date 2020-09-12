@@ -53,11 +53,11 @@ license. Please see the [license file](license.md) for more information.
 [ico-version]: https://img.shields.io/packagist/v/desemax/artisanui.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/desemax/artisanui.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/desemax/artisanui/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]: https://github.styleci.io/repos/288589018/shield?branch=master
 
 [link-packagist]: https://packagist.org/packages/desemax/artisanui
 [link-downloads]: https://packagist.org/packages/desemax/artisanui
 [link-travis]: https://travis-ci.org/desemax/artisanui
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: mailto:richard@desemax.com
-[link-styleci]: https://github.styleci.io/repos/288589018/shield?branch=master
+[link-styleci]: https://github.styleci.io/repos/288589018?branch=master
