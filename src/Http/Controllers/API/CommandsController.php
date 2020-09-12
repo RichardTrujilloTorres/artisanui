@@ -58,7 +58,6 @@ class CommandsController extends Controller
             ], 422);
         }
 
-
         return response()->json([
             'status' => $status,
             'output' => Artisan::output(),
