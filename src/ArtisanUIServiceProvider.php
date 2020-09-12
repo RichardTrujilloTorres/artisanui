@@ -49,7 +49,7 @@ class ArtisanUIServiceProvider extends ServiceProvider
     {
         return ['artisanui'];
     }
-    
+
     /**
      * Console-specific booting.
      *

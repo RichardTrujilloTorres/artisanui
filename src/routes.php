@@ -6,4 +6,3 @@ Route::prefix(config('artisanui.api.prefix').'/'.config('artisanui.api.version')
         Route::post('commands/run', 'CommandsController@run');
     });
 });
-
