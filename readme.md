@@ -1,5 +1,5 @@
 # ArtisanUI
-### The UI Command Running Utility
+### The RESTful API and UI Utility package
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -43,7 +43,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [Richard Trujillo Torres][mailto:richard@desemax.com]
+- [Richard Trujillo Torres][link-author]
 
 ## License
 
@@ -58,4 +58,4 @@ license. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/desemax/artisanui
 [link-travis]: https://travis-ci.org/desemax/artisanui
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/desemax
+[link-author]: mailto:richard@desemax.com
