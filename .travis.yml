@@ -2,6 +2,9 @@ language: php
 
 php: 7.4
 
+before_install:
+  - chmod 0600 ~/.gnupg/gpg.conf
+  
 before_script:
   - cp phpunit.travis.xml phpunit.xml
   - travis_retry composer self-update
