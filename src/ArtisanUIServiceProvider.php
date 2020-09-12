@@ -17,7 +17,7 @@ class ArtisanUIServiceProvider extends ServiceProvider
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'desemax');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'desemax');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-         $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
