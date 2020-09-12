@@ -1,11 +1,17 @@
 # ArtisanUI
+### The UI Command Running Utility
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+The ArtisanUI utility allows you to run Artisan commands by exposing a RESTful API. 
+Through configuration and security settings you can control and limit such exposure. 
+
+Comes w/ a publishable Vue.js SPA.
+
+Its complementary mobile app is on the making.
 
 ## Installation
 
@@ -29,7 +35,7 @@ $ composer test
 
 ## Contributing
 
-Please see [contributing.md](contributing.md) for details and a todolist.
+Please see [contributing.md](contributing.md) for details.
 
 ## Security
 
@@ -37,8 +43,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
-- [All Contributors][link-contributors]
+- [Richard Trujillo Torres][mailto:richard@desemax.com]
 
 ## License
 
@@ -54,4 +59,3 @@ license. Please see the [license file](license.md) for more information.
 [link-travis]: https://travis-ci.org/desemax/artisanui
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/desemax
-[link-contributors]: ../../contributors
