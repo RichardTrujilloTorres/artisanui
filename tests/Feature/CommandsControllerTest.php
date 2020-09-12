@@ -35,7 +35,7 @@ class CommandsControllerTest extends TestCase
         $request->merge([
             'arguments' => [
                 'name' => 'ArtisanUITestModel',
-            ]
+            ],
         ]);
 
         $controller = app()->make(CommandsController::class);
@@ -46,12 +46,11 @@ class CommandsControllerTest extends TestCase
         $this->assertIsArray($result);
         $this->assertEquals(['name' => 'ArtisanUITestModel'], $result);
 
-
         $request->merge([
             'options' => [
                 'api',
                 'force',
-            ]
+            ],
         ]);
 
         $result = $method->invokeArgs($controller, [$request]);
@@ -74,7 +73,7 @@ class CommandsControllerTest extends TestCase
             'options' => [
                 'api',
                 'force',
-            ]
+            ],
         ]);
 
         $controller = app()->make(CommandsController::class);
@@ -115,7 +114,7 @@ class CommandsControllerTest extends TestCase
     public function testItThrowsExceptionOnMissingArguments()
     {
         $response = $this->json('POST', $this->baseUrl().'/commands/run', [
-            'name' => 'make:model'
+            'name' => 'make:model',
         ]);
 
         $response
