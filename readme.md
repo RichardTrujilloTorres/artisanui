@@ -5,6 +5,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/RichardTrujilloTorres/artisanui/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/RichardTrujilloTorres/artisanui/?branch=master)
 
 The ArtisanUI utility allows you to run Artisan commands by exposing a RESTful API. 
 Through configuration and security settings you can control and limit such exposure. 
