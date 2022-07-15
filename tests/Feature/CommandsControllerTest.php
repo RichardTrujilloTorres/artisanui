@@ -89,9 +89,10 @@ class CommandsControllerTest extends TestCase
     }
 
     /**
-     * @param string $class
-     * @param string $method
+     * @param  string  $class
+     * @param  string  $method
      * @return \ReflectionMethod|string
+     *
      * @throws \ReflectionException
      */
     protected function getMethod(string $class, string $method)
