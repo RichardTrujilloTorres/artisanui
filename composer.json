@@ -51,6 +51,11 @@
         "phpcbf": "vendor/bin/phpcbf --standard=PSR2 src/*.php tests/*.php",
         "phpcs": "vendor/bin/phpcs --standard=PSR2 src/*.php tests/*.php",
         "php-cs-fix": "./vendor/bin/php-cs-fixer fix src --rules=@PSR2 --verbose && ./vendor/bin/php-cs-fixer fix tests --rules=@PSR2 --verbose",
-        "infection": "./vendor/bin/infection --threads=4 --min-msi=48 --min-covered-msi=70"
+        "infection": "XDEBUG_MODE=coverage ./vendor/bin/infection --threads=4 --min-msi=48 --min-covered-msi=70"
+    },
+    "config": {
+        "allow-plugins": {
+            "infection/extension-installer": true
+        }
     }
 }
