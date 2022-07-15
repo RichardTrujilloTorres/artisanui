@@ -12,6 +12,7 @@
     "homepage": "https://github.com/RichardTrujilloTorres/artisanui",
     "keywords": ["Laravel", "ArtisanUI"],
     "require": {
+        "php": "^7.4",
         "illuminate/support": "~5|~6|~7"
     },
     "require-dev": {
